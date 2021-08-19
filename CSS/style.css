@@ -1,0 +1,120 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.navbar {
+  background-color: whitesmoke;
+  color: navy;
+  padding: 15px;
+}
+.links-div {
+  display: flex;
+  justify-content: flex-end;
+}
+.navbar-collapse {
+  justify-content: space-evenly;
+}
+.navbar-nav {
+  justify-content: center;
+  padding: 0 10px;
+}
+.nav-item {
+  padding: 0 10px;
+  text-align: right;
+}
+.nav-link {
+  cursor: pointer;
+}
+.button-div {
+  margin: 0 10px;
+}
+.button {
+  padding: 8px;
+  background-color: black;
+  color: white;
+  border-radius: 8px;
+}
+.section {
+  width: 100%;
+  height: 37em;
+  background-color: lavenderblush;
+  position: relative;
+}
+.main-div {
+  width: 100%;
+
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.image {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+.main-img {
+  width: 100%;
+  height: auto;
+  background-size: cover;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.content-div h1 {
+  font-weight: 700;
+}
+.buttons {
+  display: flex;
+}
+.content-btn {
+  padding-right: 30px;
+}
+.content-btn button {
+  border: none;
+  background-color: orangered;
+  color: white;
+  display: block;
+  padding: 10px;
+
+  border-radius: 5px;
+}
+.second-buttons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.second-buttons p {
+  padding: 0;
+}
+.second-buttons p img {
+  padding-right: 6px;
+}
+.second-div {
+  width: 35%;
+  padding: 26px 26px;
+  background-color: navy;
+  color: white;
+  position: absolute;
+  left: 15%;
+  top: 75%;
+}
+.second-div p {
+  font-size: 15px;
+}
+.last {
+  display: flex;
+  justify-content: space-between;
+
+  padding: 0 20px;
+}
+.last .q-btn {
+  border-radius: 15px;
+  background-color: whitesmoke;
+  box-shadow: 5px 5px 10px darkgray;
+  padding: 10px;
+  margin-top: -20px;
+  z-index: 2;
+}
